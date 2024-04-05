@@ -24,44 +24,6 @@ public class LC713 {
             right++;
         }
         return count;
-
-//        int sum = 0;
-//        for (int i = 0; i < nums.length; i++) {
-//            if (nums[i] < k) {
-//                sum++;
-////                System.out.println(nums[i]);
-//            }
-//        }
-//
-//        for (int i = 0; i < nums.length; i++) {
-//            if (nums[i] >= k) {
-//                continue;
-//            }
-//            int j = i + 1;
-//            while (j < nums.length && nums[j] < k) {
-//                j++;
-//            }
-//            j--;
-//            if (i == j) {
-//                continue;
-//            }
-//
-//            while (i < j) {
-//                int value = nums[i];
-//                for (int l = i + 1; l <= j; l++) {
-//                    value = value * nums[l];
-//                    if (value >= k) {
-//                        j = l - 1;
-//                        break;
-//                    }
-//                }
-//                if (value < k) {
-//                    sum = sum + j - i;
-//                    break;
-//                }
-//            }
-//        }
-//        return sum;
     }
 
 
